@@ -8,10 +8,16 @@ output:
 ---
 
 
-
 # Biography
+<!-- ![](insert picture title here -- also this line is commented out for now) -->
+
 
 # Resume
+
+<div>
+<iframe src="https://carolineleffert.github.io/carolineleffert/Caroline_Leffert_Resume.pdf" style="width: 70%; height:700px; margin-left: auto;margin-left: auto;" frameborder="0">
+</iframe>
+</div>
 
 # Contact
 

@@ -15,7 +15,7 @@ output:
 # Resume
 
 <div>
-<iframe src="https://carolineleffert.github.io/carolineleffert/Caroline_Leffert_Resume.pdf" style="width: 70%; height:700px; margin-left: auto;margin-left: auto;" frameborder="0">
+<iframe src="https://carolineleffert.github.io/carolineleffert/Caroline_Leffert_Resume.pdf" style="width: 70%; height:800px; margin-left: auto;margin-left: auto;" frameborder="0">
 </iframe>
 </div>
 

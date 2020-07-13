@@ -1,0 +1,19 @@
+---
+title: "Caroline Leffert Website"
+# author: Caroline Leffert
+# date: "7/13/2020"
+output: 
+  html_document:
+      css: styles.css
+---
+
+
+
+# Biography
+
+# Resume
+
+# Contact
+
+
+

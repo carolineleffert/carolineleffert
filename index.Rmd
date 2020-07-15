@@ -31,7 +31,7 @@ During quarantine, one of my favorite things to do is watch HGTV and try to conv
 <br>
 
 <div>
-<iframe src="https://carolineleffert.github.io/carolineleffert/Caroline_Leffert_Resume.pdf" style="width: 70%; height:800px; margin-left: auto;margin-left: auto;" frameborder="0">
+<iframe src="https://carolineleffert.github.io/carolineleffert/Caroline_Leffert_Resume_Website.pdf" style="width: 70%; height:800px; margin-left: auto;margin-left: auto;" frameborder="0">
 </iframe>
 </div>
 
@@ -39,7 +39,6 @@ During quarantine, one of my favorite things to do is watch HGTV and try to conv
 
 <br>
 
-If you'd like to contact me, please fill out this form.
-
+Please get in touch with me via [my LinkedIn](https://www.linkedin.com/in/carolineleffert1215/).
 
 

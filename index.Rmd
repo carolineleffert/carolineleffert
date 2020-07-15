@@ -1,5 +1,5 @@
 ---
-title: "Caroline Leffert Website"
+title: "Caroline Leffert"
 # author: Caroline Leffert
 # date: "7/13/2020"
 output: 
@@ -9,18 +9,37 @@ output:
 
 # {.tabset .tabset-fade .tabset-pills}
 
-## Biography
-<!-- ![](insert picture title here -- also this line is commented out for now) -->
+## About Me
+<!-- ![](insert picture title here -- also this line is commented out for now. how you comment out lines is by doing command-shift-c) -->
+
+<br>
+
+Welcome!
+
+
+I'm currently a master's student at the University of Chicago working on my thesis on the intersection of ethnic identity and religion. Through my master's, I have gained experience in writing literature reviews, conducting and coding interviews and surveys, and analyzing data. I even learned how to code this website!
+
+
+Prior to my master's, I worked for 4 years fighting for the rights and value of immigrants at a pro-immigration advocacy organization in Washington, DC.
+
+
+During quarantine, one of my favorite things to do is watch HGTV and try to convince my family to start a renovation business despite none of us ever having renovated anything in our lives.
 
 
 ## Resume
 
-<!-- <div> -->
-<!-- <iframe src="https://carolineleffert.github.io/carolineleffert/Caroline_Leffert_Resume.pdf" style="width: 70%; height:800px; margin-left: auto;margin-left: auto;" frameborder="0"> -->
-<!-- </iframe> -->
-<!-- </div> -->
+<br>
+
+<div>
+<iframe src="https://carolineleffert.github.io/carolineleffert/Caroline_Leffert_Resume.pdf" style="width: 70%; height:800px; margin-left: auto;margin-left: auto;" frameborder="0">
+</iframe>
+</div>
 
 ## Contact
+
+<br>
+
+If you'd like to contact me, please fill out this form.
 
 
 

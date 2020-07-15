@@ -2,80 +2,67 @@ body { /* entire website */
   background-image: url('https://willythewoo.github.io/WillyTheWoo/plum.jpg');
   background-repeat: repeat; 
   background-size: 100%;
+  font-family: Helvetica;
+  font-size: 20px;
+  color: #330630;
+  padding: 50px 20px 500px 20px;
 }
 
-
-h1{ /* title section */
-  background-color: rgba(255, 255, 255, 0.8)   /* 35% opaque white */;
-  padding: 20px;
-  border-radius: 25px 25px 25px 25px;
-  text-align: center;
-  font-family: Libre Baskerville;
-  font-size: 16pt;
-  color: #8A3B8C;
-  font-weight: bold;
-}
-
-div.whole{ /* makes it clear that the webpage starts at the top with title */
+.whole{ /* makes it clear that the webpage starts at the top with title */
   width:100%;
 }
 
-div ul{ /* has to do with the tabset and background color */
-  height: 63px;
-  background-color: #EEDAF0;
-  float: left;
-  margin-left: 0;
-  padding: 0;
-  border-radius: 15px;
+h1 {
+  font-weight: bold;
   text-align: center;
-  border-style: solid;
-  border-color: #413742 ;
+  font-size: 20px;
+  color: #8A3B8C;
 }
 
-div ul li{ /* has to do with the tabset and the blue highlight */
-  list-style: none;
-  display: inline-block; /* this is to show something horizontally */
-  line-height: 37px;
-  border-radius: 15px;
+ul{ /* has to do with the navbar */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 150px; /* this affects whether it's horizontal or vertical */
+  background-color: #EEE3F1;
+  border: 1px solid #330630;
+  height: 19.5%; /* this is the navbar height */
+  position: fixed; /* Make it stick, even on scroll */
 }
 
-div ul li a{ /*tbh idk, but has to do with the tabset, I wouldn't mess with it */
-  display: block;
-  text-decoration: none;
-  font-size: 30px;
-  font-family: Libre Baskerville;
-  color: #9B2896;
-  padding: 0 20px;
-}
-
-div ul li a:hover { /*hover element*/
-  background-color: #786180; /* this is not working and I don't know why */
-  color: #DFB7ED;
-}
-
-img{ /* has to do with images that are inserted I think */
-  border-radius: 25px;
-}
-
-
-p{ /* has to do with the main text I THINK */
-  font-size: 30px;
-  font-family: Libre Baskerville;
-  color: #330630;
-  padding: 15px;
-}
-
-div.active{ /* has to do with the main text and also the border */
-  background-color: rgba(255, 255, 255, 0.8) ;
-  padding: 20px;
-  border-radius: 25px 25px 25px 25px;
-}
-
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus {
-  height: 57px;
-  background-color: #330630;
+li { /* has to do with the navbar */
   float: center;
-  padding: 20px;
-  border-radius: 5px;
-  
+  text-align: center;
 }
+
+li a { /* has to do with the navbar */
+  display: block;
+  padding: 15px; 
+  font-size: 15px;
+  color: #9B2896;
+  text-decoration: none;
+}
+
+li a.active{
+  width: 150px;
+  background-color: #330630;
+  color: #DFB7ED;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) { /*has to do with the navbar */
+  width: 150px;
+  background-color: #330630;
+  color: #DFB7ED;
+  text-decoration: none;
+}
+
+
+idk.active {
+  background-color: rgba(255, 255, 255, 0.8)  ;
+  padding: 50px 20px 500px 100px;
+  border-radius: 0 transparent;
+}
+
+
+  

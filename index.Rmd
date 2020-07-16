@@ -6,7 +6,58 @@ output:
   html_document:
       css: styles.css
       toc: TRUE
-      # toc_float: TRUE I put this in here and it kind of messed up, revisit this
+      # toc_float: TRUE (also this line is commented out for now. how you comment out lines is by doing command-shift-c)
 ---
 
+
+Qualitative Researcher | Performer | Storyteller | Vivid Dreamer
+<!-- Apparently the thing above ONLY responds to "body." I can't assign it as a subheading or anything -->
+
+## About Me
+
+Welcome!
+
+
+I'm currently a master's student at the University of Chicago working on my thesis on the intersection of ethnic identity and religion. Through my master's, I have gained experience in writing literature reviews, conducting and coding interviews and surveys, and analyzing data. I even learned how to code this website!
+
+
+Prior to my master's, I worked for 4 years fighting for the rights and value of immigrants at a pro-immigration advocacy organization in Washington, DC.
+
+
+During quarantine, one of my favorite activities to do is watch HGTV and try to convince my family to start a renovation business despite none of us ever having renovated anything in our lives.
+
+
+Other fun things about me: I love animals of all kinds! I follow like a million zoos and naturalists on instagram (follow @blackAFinSTEM for some quality birding and herping content). I even listen to podcasts about animals. 
+
+
+I love listening to podcasts! Current favorites include: [Ologies](https://www.alieward.com/ologies), [This Land](https://crooked.com/podcast-series/this-land/), [The Happiness Lab with Dr. Laurie Santos](https://www.happinesslab.fm/), and basically any podcast from NPR, but especially [Code Switch](https://www.npr.org/sections/codeswitch/), [Life Kit](https://www.npr.org/lifekit), and [Rough Translation](https://www.npr.org/podcasts/510324/rough-translation).
+
+
+![](JJ_pic.png)
+```{r, echo=FALSE, fig.align = 'center', fig.cap = "My dog, JJ, is the most beautiful dog in the world, and no, I will not be taking constructive criticism on that statement"}
+require(tidyverse)
+require(knitr)
+knitr::include_graphics(here::here("figs", "JJ_pic.png"))
+
+```
+
+<br>
+
+## Resume
+
+<br>
+
+<div>
+<iframe src="https://carolineleffert.github.io/carolineleffert/Caroline_Leffert_Resume_Website.pdf" style="width: 70%; height:800px; margin-left: auto;margin-left: auto;" frameborder="0">
+</iframe>
+</div>
+
+
+<br>
+
+## Contact
+
+<br>
+
+Please feel free to get in touch with me via [LinkedIn.](https://www.linkedin.com/in/carolineleffert1215/)
 

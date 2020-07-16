@@ -5,11 +5,8 @@ body { /* entire website */
   font-family: Helvetica;
   font-size: 20px;
   color: #330630;
-  padding: 50px 20px 500px 20px;
-}
-
-.whole{ /* makes it clear that the webpage starts at the top with title */
-  width:100%;
+  padding: 20px;
+  text-align: center;
 }
 
 h1 {
@@ -21,13 +18,14 @@ h1 {
 
 ul{ /* has to do with the navbar */
   list-style-type: none;
-  margin: 0;
+  margin: 50px -100px 0px;
   padding: 0;
   width: 150px; /* this affects whether it's horizontal or vertical */
   background-color: #EEE3F1;
   border: 1px solid #330630;
-  height: 19.5%; /* this is the navbar height */
+  height: 150px; /* this is the navbar height */
   position: fixed; /* Make it stick, even on scroll */
+  border-radius: 15px;
 }
 
 li { /* has to do with the navbar */
@@ -41,6 +39,7 @@ li a { /* has to do with the navbar */
   font-size: 15px;
   color: #9B2896;
   text-decoration: none;
+  border-radius: 15px;
 }
 
 li a.active{
@@ -58,11 +57,19 @@ li a:hover:not(.active) { /*has to do with the navbar */
 }
 
 
-idk.active {
-  background-color: rgba(255, 255, 255, 0.8)  ;
-  padding: 50px 20px 500px 100px;
-  border-radius: 0 transparent;
+html { /*i'm happy enough up to this point */
+  scroll-behavior: smooth;
 }
 
+p {
+  margin: 20px 20px 20px 70px;
+}
 
-  
+div {
+  margin: 20px 20px 20px 70px;
+}
+
+.main {
+  background-color: rgba(255, 255, 255, 0.8)  ;
+  padding: 25px;
+}

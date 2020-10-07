@@ -20,8 +20,8 @@ h2 { /* this is the section headers */
   font-weight: bold;
   text-align: left;
   font-size: 25px;
-  color: #23461C; /* evergreen green */
-  background-color: rgba(194, 224, 189, 0.6) ; /* light green, semi-transparent */
+  color: #F6F6F6; /*  #23461C; /* evergreen green */
+  background-color: rgba(51, 6, 48, 0.8) ; /* rgba (194, 224, 189, 0.6) ; /* light green, semi-transparent */
   padding: 10px;
 /*  border-radius: 10px; */
   width: 100%;

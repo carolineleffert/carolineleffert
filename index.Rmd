@@ -9,4 +9,45 @@ output:
       # toc_float: TRUE (also this line is commented out for now. how you comment out lines is by doing command-shift-c)
 ---
 
+<div class = transbox>
+
+<center> **Qualitative Researcher | Storyteller | Performer ** </center>
+
+<!-- Apparently the thing above ONLY responds to "body" and "p" maybe? I can't assign it as a subheading or anything -->
+
+## About Me
+
+I recently finished my master's degree at the University of Chicago. My thesis, of which I am extremely proud, was an interview-based project on the intersection of ethnic identity and religion, with a case study at a Croatian Catholic Church in Chicago. Through my master's, I have gained experience in writing literature reviews, conducting and coding interviews and surveys, and analyzing data. I even learned how to code this website using Rmarkdown and CSS!
+
+
+Prior to my master's, I worked for 4 years fighting for the rights and value of immigrants in the United States at a pro-immigration advocacy organization in Washington, DC.
+
+
+Because I'm a storyteller, I'm also a total podcast nerd. Current favorites include: [Ologies](https://www.alieward.com/ologies) and [The Happiness Lab with Dr. Laurie Santos](https://www.happinesslab.fm/), and basically any podcast from NPR, but especially <!--[Latino USA](https://www.latinousa.org/), [Life Kit](https://www.npr.org/lifekit), and -->[Rough Translation.](https://www.npr.org/podcasts/510324/rough-translation)
+
+<!-- This is how I chose to subvert how to insert a picture (which is ![](picture title goes here)) -->
+```{r, echo = FALSE, out.width = "400px", fig.align = 'center', fig.cap = TRUE, fig.cap = "If this whole research thing doesn't work out, at least I have my fallback career of dog model photographer for my dog JJ!"}
+library(knitr)
+knitr::include_graphics(here::here("JJ_pic.png"))
+
+```
+
+
+
+
+## Resume
+
+<div>
+<iframe src="https://carolineleffert.github.io/carolineleffert/Caroline_Leffert_Resume_Website.pdf" style="width: 70%; height:800px; margin-left: 70px;" frameborder="0">
+</iframe>
+</div>
+
+
+## Contact
+
+Please feel free to get in touch with me via [LinkedIn.](https://www.linkedin.com/in/carolineleffert1215/)
+
+
+
+
 

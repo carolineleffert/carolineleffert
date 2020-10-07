@@ -4,28 +4,40 @@ body { /* entire website */
   background-size: 100%;
   font-family: Helvetica;
   font-size: 20px;
-  color: #330630;
+  color: #330630; /* dark brownish */
   padding: 20px;
-  text-align: center;
 }
 
-h1 {
+h1 { /* this is only for the title */
   font-weight: bold;
   text-align: center;
   font-size: 20px;
-  color: #8A3B8C;
+  color: #8A3B8C; /* mauve purple */
 }
+
+h2 { /* this is the section headers */
+  margin: 20px 20px 20px 70px;
+  font-weight: bold;
+  text-align: left;
+  font-size: 25px;
+  color: #23461C; /* evergreen green */
+  background-color: rgba(194, 224, 189, 0.6) ; /* light green, semi-transparent */
+  padding: 10px;
+/*  border-radius: 10px; */
+  width: 100%;
+}
+
 
 ul{ /* has to do with the navbar */
   list-style-type: none;
   margin: 50px -100px 0px;
   padding: 0;
   width: 150px; /* this affects whether it's horizontal or vertical */
-  background-color: #EEE3F1;
-  border: 1px solid #330630;
+  background-color: #EEE3F1; /* light pink */
+  border: 1px solid #330630; /* dark brownish */
   height: 150px; /* this is the navbar height */
   position: fixed; /* Make it stick, even on scroll */
-  border-radius: 15px;
+/*  border-radius: 15px;*/
 }
 
 li { /* has to do with the navbar */
@@ -37,43 +49,55 @@ li a { /* has to do with the navbar */
   display: block;
   padding: 15px; 
   font-size: 15px;
-  color: #9B2896;
+  font-weight: bold;
+  color: #9B2896; /* mauve */
   text-decoration: none;
-  border-radius: 15px;
+/*  border-radius: 15px; */
 }
 
-li a.active{
+li a.active{ /* has to do with the navbar */
   width: 150px;
-  background-color: #330630;
-  color: #DFB7ED;
+  background-color: #330630; /* dark brownish */
+  color: #DFB7ED; /* light pinkish purple */
   text-decoration: none;
 }
 
 li a:hover:not(.active) { /*has to do with the navbar */
   width: 150px;
-  background-color: #330630;
-  color: #DFB7ED;
+  background-color: #23461C; /* dark green */
+  color: #DFB7ED; /* light pinkish purple */
   text-decoration: none;
 }
 
 
-html { /*i'm happy enough up to this point */
+html { /* this has to do with the navbar scrolling */
   scroll-behavior: smooth;
 }
 
-img{ /* has to do with images that are inserted I think */
-  border-radius: 25px;
+img { /* has to do with images that are inserted */
+  border-radius: 0;
+  border: 1px solid #330630; /* dark brownish */
 }
 
-p {
+
+p { /* has to do with the main body text */
   margin: 20px 20px 20px 70px;
 }
 
-div {
-  margin: 20px 20px 20px 70px;
+/* unvisited link */
+a:link {
+  color: #8A3B8C; /* mauve purple */
 }
 
-.main {
-  background-color: rgba(255, 255, 255, 0.8)  ;
-  padding: 25px;
+/* visited link */
+a:visited {
+  color: #8A3B8C; /* mauve purple */
 }
+
+div.transbox {
+  background-color: rgba(255, 255, 255, 0.8)  /* 35% opaque white */ ;
+  padding: 20px;
+/*  border-radius: 25px 25px 25px 25px; */
+}
+
+
